@@ -16,5 +16,5 @@ cd ../go-backend
 go run .
 ```
 
-If its the initial time running the repo, you also need to `go mod tidy` in the go-backend folder to
-download and install the dependencies. 
+If its the initial time running the repo, you also need to `go mod tidy` in the go-backend folder
+and `pnpm i` in react-frontend to download and install dependencies.
